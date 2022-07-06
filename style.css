@@ -9,28 +9,27 @@ body{
     background-size: cover;
     width: 100%;
     height: 740px;
-    margin: 0;
     display: flex;
 }
 .donate-text-and-link{
     text-align: center;
     margin: 1px 307px 175px;
 }
-.donate-text-area-title{
+.donate-title{
     margin: 174px 307px 5px;
 }
-.donate-text-area-title h1{
+.donate-title h1{
     font-weight: 700;
-    font-size: 65px;
+    font-size: 55px;
     color: white;
     text-shadow: 0 0 7px black;
 }
-.donate-text-area-description{
+.donate-description{
     margin: 1px 374px 8px 375px;
 }
-.donate-text-area-description p{
+.donate-description p{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     text-shadow: 0 0 7px black;
 }
@@ -38,7 +37,7 @@ body{
     padding: 14px 10px;
     background-color: #FF5959;
     width: 160px;
-    margin-left: 540px;
+    margin-left: 555px;
     margin-top: 30px;
     border-radius: 5px;
 }
@@ -48,3 +47,10 @@ body{
     font-size: 20px;
     color: white;
 }
+
+/*donation section*/
+.donation {
+    margin: 130px 568px 10px;
+    text-align: center;
+}
+
