@@ -50,7 +50,67 @@ body{
 
 /*donation section*/
 .donation {
+    text-align: center;
+    display: inline;
+}
+.donation-title {
     margin: 130px 568px 10px;
+}
+.donation-title h1{
+    font-weight: 700px;
+    font-size: 38px;
+    color: #121212;
+}
+.donation-description{
+    margin: 10px 374px 25px 375px;
+}
+.donation-description p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #707070;
+}
+.donation-display-amount{
+    margin: 25px 540px 30px 555px;
+    width: 25%;
+    display: flex;
+}
+.donation-amounts{
+    margin-right: 25px;
+    width: 136px;
+    height: 123px;
+    background-color: #FAFAFA;
+    text-align: center;
+    border-radius: 5px;
+}
+.donation-amounts h3{
+    font-weight: 700;
+    font-size: 30px;
+    height: 36px;
+    width: 86px;
+    margin: 43px 25px 44px 25px;
+    color: #707070;
+}
+.amount-5000tk h3{
+    margin: 43px 35px 44px 18px;
+}
+.amount-200tk{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}   
+.custom-amount{
+    margin: 15px 565px 5px 555px;
     text-align: center;
 }
-
+.writen-amount{
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    height: 40px;
+}
+.donation-donate-now{
+    margin-left: 860px;
+    margin-bottom: 70px;
+}
