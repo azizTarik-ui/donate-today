@@ -170,3 +170,35 @@ body{
     font-size: 13px;
     color: #707070;
 }
+
+/*other websites section*/
+#other-websites{
+    display: flex;
+}
+.other-websites-content{
+    margin: 100px 150px 151px 410px;
+}
+.donation-images{
+    margin: 130px 370px 152px 30px;
+}
+.other-websites-content h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(18, 18, 18, 1);
+}
+.other-websites-content p{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(112, 112, 112, 1);
+    margin-bottom: 50px;
+}
+.other-websites-content a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding: 14px 10px;
+    background-color: #FF5959;
+    width: 50px;
+    border-radius: 5px;
+}
