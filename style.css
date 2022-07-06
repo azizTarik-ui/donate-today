@@ -241,3 +241,25 @@ body{
     border-left: none;
     font-family: 'Poppins', sans-serif;
 }
+
+/*footer*/
+footer{
+    background-color: #0B0D17;
+    height: 250px;
+}
+.footer-texts{
+    padding: 43px 661px;
+}
+.footer-texts h2{
+    text-align: center;
+    color: #FF5959;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 35px;
+}
+.footer-texts p{
+    text-align: center;
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 12px;
+}
