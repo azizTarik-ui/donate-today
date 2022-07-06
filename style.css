@@ -3,6 +3,9 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 #donate{
     background-image: url(images/donation7.jpg);  
     background-repeat: no-repeat;
