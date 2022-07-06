@@ -172,27 +172,27 @@ body{
 }
 
 /*other websites section*/
-#other-websites{
+#other-projects{
     display: flex;
 }
-.other-websites-content{
+.other-projects-content{
     margin: 100px 150px 151px 410px;
 }
 .donation-images{
     margin: 130px 370px 152px 30px;
 }
-.other-websites-content h1{
+.other-projects-content h1{
     font-weight: 700;
     font-size: 40px;
     color: rgba(18, 18, 18, 1);
 }
-.other-websites-content p{
+.other-projects-content p{
     font-weight: 400;
     font-size: 15px;
     color: rgba(112, 112, 112, 1);
     margin-bottom: 50px;
 }
-.other-websites-content a{
+.other-projects-content a{
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
@@ -201,4 +201,43 @@ body{
     background-color: #FF5959;
     width: 50px;
     border-radius: 5px;
+}
+
+/*email-section*/
+#email{
+    text-align: center;
+}
+.email-text-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #121212;
+}
+.email-text-content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+}
+.email-box-and-button{
+    margin: 50px 500px 150px 500px;
+    padding: 76px 188px 120px 188px;
+    background-color: #FFF4D6;
+}
+.email-box{
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    background: rgb(215, 215, 215);
+    font-family: 'Poppins', sans-serif;
+}
+.subscribe{
+    float: left;
+    padding: 10px;
+    background: #FF5959;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    font-family: 'Poppins', sans-serif;
 }
