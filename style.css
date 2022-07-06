@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.donate{
+#donate{
     background-image: url(images/donation7.jpg);  
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +49,7 @@ body{
 }
 
 /*donation section*/
-.donation {
+#donation {
     text-align: center;
     display: inline;
 }
@@ -110,7 +110,63 @@ body{
     font-weight: 400;
     height: 40px;
 }
-.donation-donate-now{
-    margin-left: 860px;
-    margin-bottom: 70px;
+.donation-donate{
+    margin: 1px 307px 100px;
+}
+
+/*donate plan section */
+#donation-plan{
+    display: flex;
+}
+.donate-plan-text{
+    text-align: center;
+    margin: 30px 374px 50px 375px;
+}
+.donate-plan-text h2{
+    font-weight: 700;
+    font-size: 37px;
+    color: #121212;
+}
+.donate-plan-text p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #707070;
+}
+.planning{
+    margin: 25px 480px 100px 400px;
+    display: flex;
+}
+.plans{
+    width: 360px;
+    height: 352px;
+    margin-right: 24px;
+    border-radius: 5px;
+}
+.foods{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.shelters{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.education{
+    background-color: rgba(216, 188, 2, 0.1);
+}
+.icon{
+    margin: 64px 279px 31px 23px;
+}
+.plans-text{
+    margin: 31px 22px 54px 23px;
+    text-align: left;
+    width: 315px;
+    height: 101px;
+}
+.plans-text h3{
+    font-weight: 600;
+    font-size: 20px;
+    color:#121212 
+}
+.plans-text p{
+    font-weight: 400px;
+    font-size: 13px;
+    color: #707070;
 }
